@@ -1,0 +1,84 @@
+body {
+  background-color: lightblue ;
+  margin:10px;
+  font-size:1.5vw;
+}
+
+.titleofexpt {
+  position: relative;
+  background-color:lightcoral;
+  font-size: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.split {
+  position: absolute;
+  margin-top:100px;
+  height: 80%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color:lightgrey;
+}
+
+.right {
+  right: 0;
+  background-color:lightgoldenrodyellow;
+}
+
+.centered {
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: auto;
+  font-size:1.5vw;
+}
+
+.centered img {
+  width: 100%;
+padding-right: 10%;
+}
+
+
+
+.custom-select {
+    font-family: Arial;
+    justify-content: center;
+    text-align: auto;
+}
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+#small_intro_about_command {
+    background-color:#000000;   
+    color: #ffffff;
+    font-size:1.5vw;
+}
+#syntax_of_command{
+    position: relative;
+    font-size: 1.5vw;
+    background-color:#ecf00f;
+    display: flex;
+}
+#Outputofcommand{
+    width = "100%";
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    border-spacing: 5px;
+    padding: 10px;
+} 
+
