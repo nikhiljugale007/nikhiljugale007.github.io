@@ -36,7 +36,6 @@ body {
 }
 
 .centered {
-  position: absolute;
   margin-left: 10%;
   margin-right: 10%;
   text-align: auto;
@@ -45,7 +44,7 @@ body {
 
 .centered img {
   width: 100%;
-padding-right: 10%;
+    padding-right: 10%;
 }
 
 
@@ -59,17 +58,21 @@ padding-right: 10%;
     background-color: DodgerBlue;
 }
 
-#small_intro_about_command {
-    background-color:#000000;   
-    color: #ffffff;
-    font-size:1.5vw;
+.introduction{
+    margin-bottom: 10%;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
+    background-color:#97978c;
 }
-#syntax_of_command{
+#small_intro_about_command {
+    font-size:1.5vw;
+    margin-left: 10%;
+}
+/* #syntax_of_command{
     position: relative;
     font-size: 1.5vw;
     background-color:#ecf00f;
     display: flex;
-}
+} */
 #Outputofcommand{
     width = "100%";
 }
@@ -82,3 +85,15 @@ table, th, td {
     padding: 10px;
 } 
 
+#syntax_of_command{
+    background-color:#ecf00f;
+    font-size: 1.5vw;
+}
+
+.left{
+    float:left;
+}
+
+.syntax{
+    margin-top: 5%;
+}
