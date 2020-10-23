@@ -62,6 +62,8 @@ body {
     margin-bottom: 10%;
     box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
     background-color:#97978c;
+    font-size:1.5vw;
+
 }
 #small_intro_about_command {
     font-size:1.5vw;
@@ -83,6 +85,8 @@ table, th, td {
     text-align: left;
     border-spacing: 5px;
     padding: 10px;
+    font-size:1.5vw;
+
 } 
 
 #syntax_of_command{
